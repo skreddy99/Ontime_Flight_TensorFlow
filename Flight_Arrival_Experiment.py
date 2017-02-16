@@ -4,7 +4,10 @@ from __future__ import print_function
 
 import tensorflow as tf
 import numpy as np
-
+'''
+This experiment captured the data about domestic flights that arruve and depart in US. 
+The huge data is used to make a prediction on the flight ontime arrival. 
+'''
 # Data sets
 FLIGHT_TRAINING = "ontime_flight_arrival_trainingdata.csv"
 FLIGHT_TEST = "ontime_flight_arrival_testdata.csv"
